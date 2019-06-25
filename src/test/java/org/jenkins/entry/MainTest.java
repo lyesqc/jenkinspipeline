@@ -11,6 +11,6 @@ public class MainTest {
 		Main main = new Main();
 		Main.Person  p  = new Main.Person("Bensaada", "Lyes");
 		Main.initializePerson(p);
-		assertTrue(p.name == null && p.prenom ==null);
+		assertTrue(p.name == "" && p.prenom =="");
 	}
 }
