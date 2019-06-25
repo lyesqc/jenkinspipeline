@@ -10,6 +10,7 @@ public class MainTest {
 	public void initializePersonTest(){
 		Main main = new Main();
 		Main.Person  p  = new Main.Person("Bensaada", "Lyes");
+		Main.initializePerson(p);
 		assertTrue(p.name == null && p.prenom ==null);
 	}
 }

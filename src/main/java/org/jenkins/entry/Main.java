@@ -6,7 +6,7 @@ public class Main {
 		System.out.println("Stagging......");
 	}
 
-	void initializePerson(Person p) {
+	static void initializePerson(Person p) {
 		p.name = "";
 		p.prenom = "";
 	}
